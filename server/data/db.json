@@ -1,0 +1,2186 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "Kasim ali",
+      "sapId": "00000000000",
+      "email": "admin@cafeteria.edu",
+      "password": "$2a$10$B2MCW5ovZj0MvGeGCltLI./4.ZjPDj1dDceqCM/LBc1Bp1HV.XoRG",
+      "role": "admin",
+      "userType": "Administrator",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "user-student-1",
+      "name": "Alex Johnson",
+      "sapId": "53013240071",
+      "email": "alex.johnson@svkm.ac.in",
+      "password": "$2a$10$riO1IbF6za6flAIcsAgPn.rl541xmc8/CRj3gs7pf93NBiFmrmP9i",
+      "role": "student",
+      "userType": "Student",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "user-staff-1",
+      "name": "Prof. Sharma",
+      "sapId": "53013240099",
+      "email": "prof.sharma@svkm.edu.in",
+      "password": "$2a$10$zy2QtgTZQ5CyXsR8VoAwwu.ICp6Dadov8Wwn8/8uhoX/6b2D6Xh52",
+      "role": "staff",
+      "userType": "Teaching Staff",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "dcd88ed2-1cab-4684-b83d-d679e306dfbf",
+      "createdAt": "2026-09-10T07:09:58.780Z",
+      "name": "ali",
+      "email": "ali@svkm.ac.in",
+      "sapId": "53013240061",
+      "password": "$2a$10$OUzhRj/Ec3ek5CLHyPqU6eqV.aaoRSMpzP4nU6E2RcHToFUSix8P.",
+      "role": "student",
+      "userType": "Student"
+    },
+    {
+      "id": "2f85decb-8265-4287-ab2b-427e149f39aa",
+      "createdAt": "2026-10-27T06:27:16.768Z",
+      "name": "Kasim ali",
+      "email": "kasim@svkm.com",
+      "sapId": "53013240051",
+      "password": "$2a$10$B2MCW5ovZj0MvGeGCltLI./4.ZjPDj1dDceqCM/LBc1Bp1HV.XoRG",
+      "role": "admin",
+      "userType": "Administrator"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-snacks",
+      "name": "Snacks",
+      "description": "Crispy samosas, vada pav, puffs, kachoris and tea savories",
+      "image": "/images/foods/samosa.jpg",
+      "createdAt": "2026-09-10T07:05:38.596Z"
+    },
+    {
+      "id": "cat-beverages",
+      "name": "Beverages",
+      "description": "Refreshing juices, masala chai, cold coffee, badam milk and shakes",
+      "image": "/images/foods/masala-chai.jpg",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "cat-main-course",
+      "name": "Main Course",
+      "description": "Filling Indian meals, veg biryani, thalis, pav bhaji & paneer gravies",
+      "image": "/images/foods/veg-biryani.jpg",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "cat-fast-food",
+      "name": "Fast Food",
+      "description": "Burgers, grilled sandwiches, peri peri fries and rolls",
+      "image": "/images/foods/veg-burger.jpg",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "cat-desserts",
+      "name": "Desserts",
+      "description": "Walnut brownies, rasgullas, matka kulfi and hot gulab jamuns",
+      "image": "/images/foods/gulab-jamun.jpg",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "cat-jain-specials",
+      "name": "Jain Specials",
+      "description": "100% Jain certified dishes Ã¢â‚¬â€ no onion, garlic or root vegetables",
+      "image": "/images/foods/jain-thali.jpg",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "cat-south-indian",
+      "name": "South Indian",
+      "description": "Crispy dosas, idli, medu vada and fresh coconut chutney",
+      "image": "/images/foods/masala-dosa.jpg",
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    }
+  ],
+  "foods": [
+    {
+      "id": "food-1",
+      "name": "Crispy Punjabi Samosa (2 Pcs)",
+      "description": "Spiced potato and green peas filling in a golden flaky crust, served with green chutney & tamarind sauce.",
+      "price": 30,
+      "categoryId": "cat-snacks",
+      "categoryName": "Snacks",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/samosa.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-2",
+      "name": "Mumbai Special Vada Pav",
+      "description": "Spicy potato fritter inside a soft bun, dusted with garlic chili chutney and served with fried green chili.",
+      "price": 35,
+      "categoryId": "cat-snacks",
+      "categoryName": "Snacks",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/vada-pav.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-3",
+      "name": "Khasta Moong Dal Kachori (Jain)",
+      "description": "Crispy deep-fried puffed pastry stuffed with spiced moong dal lens. 100% Jain friendly.",
+      "price": 40,
+      "categoryId": "cat-snacks",
+      "categoryName": "Snacks",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/kachori.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-4",
+      "name": "Veg Cheese Baked Puff",
+      "description": "Flaky golden puff pastry stuffed with sweet corn, bell peppers and melted cheddar cheese.",
+      "price": 45,
+      "categoryId": "cat-snacks",
+      "categoryName": "Snacks",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/veg-puff.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-sandwich",
+      "name": "Grilled Veg Club Sandwich",
+      "description": "Triple layered grilled sandwich with cucumber, tomato, cheese and mint chutney on toasted bread.",
+      "price": 60,
+      "categoryId": "cat-snacks",
+      "categoryName": "Snacks",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/sandwich.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-bhel",
+      "name": "Mumbai Bhel Puri",
+      "description": "Light crispy puffed rice tossed with onions, tomatoes, green chutney and tamarind sauce.",
+      "price": 25,
+      "categoryId": "cat-snacks",
+      "categoryName": "Snacks",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/bhel-puri.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-5",
+      "name": "Perk Up Cold Coffee with Ice Cream",
+      "description": "Thick blended espresso cold coffee topped with a scoop of rich chocolate ice cream.",
+      "price": 70,
+      "categoryId": "cat-beverages",
+      "categoryName": "Beverages",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/cold-coffee.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-6",
+      "name": "Masala Chai (Cutting)",
+      "description": "Fresh brewed Indian milk tea infused with cardamom, ginger, cloves and aromatic spices.",
+      "price": 15,
+      "categoryId": "cat-beverages",
+      "categoryName": "Beverages",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/masala-chai.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-7",
+      "name": "Fresh Lime Soda (Sweet & Salt)",
+      "description": "Sparkling ice-chilled lime soda garnished with fresh mint leaves and lemon slice.",
+      "price": 40,
+      "categoryId": "cat-beverages",
+      "categoryName": "Beverages",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/lime-soda.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-8",
+      "name": "Kesari Badam Milk (Chilled)",
+      "description": "Rich chilled milk blended with crushed almonds, saffron strands and cardamom.",
+      "price": 60,
+      "categoryId": "cat-beverages",
+      "categoryName": "Beverages",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/badam-milk.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "dtc-cold-brew",
+      "name": "Cold Brew Espresso Float (Regular 350ml)",
+      "description": "Artisan slow-steeped cold brew coffee served with vanilla bean ice cream float.",
+      "price": 70,
+      "categoryId": "cat-beverages",
+      "categoryName": "Beverages",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/cold-brew-float.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-mango-shake",
+      "name": "Alphonso Mango Milkshake",
+      "description": "Thick and creamy milkshake made with fresh Alphonso mangoes, chilled milk and light cream.",
+      "price": 80,
+      "categoryId": "cat-beverages",
+      "categoryName": "Beverages",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/mango-milkshake.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-9",
+      "name": "Hyderabadi Veg Dum Biryani",
+      "description": "Fragrant basmati rice slow-cooked with spiced garden vegetables, saffron and fried onions. Served with mint raita.",
+      "price": 130,
+      "categoryId": "cat-main-course",
+      "categoryName": "Main Course",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/veg-biryani.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-10",
+      "name": "Mumbai Pav Bhaji",
+      "description": "Street-style mashed vegetable curry in butter with fluffy toasted pav buns and lemon wedge.",
+      "price": 90,
+      "categoryId": "cat-main-course",
+      "categoryName": "Main Course",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/pav-bhaji.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-11",
+      "name": "Punjabi Dal Makhani with Rice",
+      "description": "Slow-cooked black lentils in rich buttery tomato gravy, served with steamed basmati rice and pickle.",
+      "price": 120,
+      "categoryId": "cat-main-course",
+      "categoryName": "Main Course",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/dal-makhani.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-12",
+      "name": "Veg Thali (5 Items)",
+      "description": "Complete thali: 2 sabzi, dal tadka, jeera rice, phulka roti, papad, pickle & dessert. Full Indian meal.",
+      "price": 150,
+      "categoryId": "cat-main-course",
+      "categoryName": "Main Course",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/veg-thali.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-paneer-tikka",
+      "name": "Paneer Tikka Masala with Roti",
+      "description": "Grilled cottage cheese cubes in a rich spiced tomato-cashew gravy, served with 2 butter rotis.",
+      "price": 140,
+      "categoryId": "cat-main-course",
+      "categoryName": "Main Course",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/paneer-tikka.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-13",
+      "name": "Crispy Veg Burger with Fries",
+      "description": "Spiced veg patty with lettuce, tomato, cheese and mayo in a toasted sesame bun, with crispy fries.",
+      "price": 100,
+      "categoryId": "cat-fast-food",
+      "categoryName": "Fast Food",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/veg-burger.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-14",
+      "name": "Peri Peri French Fries (Large)",
+      "description": "Hot crispy golden fries tossed in fiery peri peri spice blend with cheese dip.",
+      "price": 70,
+      "categoryId": "cat-fast-food",
+      "categoryName": "Fast Food",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/french-fries.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-15",
+      "name": "Cheese Loaded Veg Hot Dog",
+      "description": "Spiced veg sausage in a toasted bun loaded with mustard, ketchup and melted cheese.",
+      "price": 85,
+      "categoryId": "cat-fast-food",
+      "categoryName": "Fast Food",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/veg-hot-dog.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-wrap",
+      "name": "Paneer Tikka Wrap",
+      "description": "Chargrilled paneer tikka with onions, peppers and mint chutney wrapped in a soft wheat tortilla.",
+      "price": 90,
+      "categoryId": "cat-fast-food",
+      "categoryName": "Fast Food",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/paneer-wrap.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-dosa",
+      "name": "Masala Dosa with Sambar",
+      "description": "Crispy thin dosa filled with spiced potato filling, served with coconut chutney and hot sambar.",
+      "price": 80,
+      "categoryId": "cat-south-indian",
+      "categoryName": "South Indian",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/masala-dosa.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-idli",
+      "name": "Idli Sambar (3 Pcs)",
+      "description": "Soft steamed rice cakes served with piping hot lentil sambar and two chutneys.",
+      "price": 60,
+      "categoryId": "cat-south-indian",
+      "categoryName": "South Indian",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/idli-sambar.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-uttapam",
+      "name": "Veg Uttapam",
+      "description": "Thick dosa pancake topped with colourful veggies Ã¢â‚¬â€ onion, tomato, capsicum and coriander.",
+      "price": 70,
+      "categoryId": "cat-south-indian",
+      "categoryName": "South Indian",
+      "isVeg": true,
+      "isJain": false,
+      "image": "/images/foods/veg-uttapam.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-jain-thali",
+      "name": "Jain Special Thali",
+      "description": "Full Jain-certified thali with no onion, garlic or root veg. Includes dal, sabzi, rice, roti, papad.",
+      "price": 160,
+      "categoryId": "cat-jain-specials",
+      "categoryName": "Jain Specials",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/jain-thali.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-jain-biryani",
+      "name": "Jain Veg Biryani",
+      "description": "Aromatic basmati rice cooked with permitted Jain vegetables (no onion/garlic/potato) and saffron.",
+      "price": 130,
+      "categoryId": "cat-jain-specials",
+      "categoryName": "Jain Specials",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/jain-biryani.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-18",
+      "name": "Hot Chocolate Fudge Brownie",
+      "description": "Warm walnut brownie served with vanilla ice cream and hot chocolate fudge sauce.",
+      "price": 90,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/brownie.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-19",
+      "name": "Gulab Jamun (2 Pcs)",
+      "description": "Soft milk dumplings fried to golden perfection and soaked in cardamom scented warm sugar syrup.",
+      "price": 45,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/gulab-jamun.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-20",
+      "name": "Kesar Rasgulla (2 Pcs)",
+      "description": "Spongy cottage cheese balls soaked in saffron flavored light sugar syrup. 100% Jain friendly.",
+      "price": 50,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/rasgulla.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    },
+    {
+      "id": "food-kulfi",
+      "name": "Matka Kesar Kulfi",
+      "description": "Traditional Indian ice cream made with condensed milk, saffron and pistachios in a clay matka.",
+      "price": 55,
+      "categoryId": "cat-desserts",
+      "categoryName": "Desserts",
+      "isVeg": true,
+      "isJain": true,
+      "image": "/images/foods/matka-kulfi.jpg",
+      "isAvailable": true,
+      "createdAt": "2026-09-10T07:05:38.597Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-94bfd233",
+      "orderId": "CFO-2026-000152",
+      "status": "Completed",
+      "orderDate": "2026-10-27T06:27:58.466Z",
+      "createdAt": "2026-10-27T06:27:58.466Z",
+      "userId": "2f85decb-8265-4287-ab2b-427e149f39aa",
+      "userName": "kasim",
+      "userEmail": "kasim@svkm.com",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-1",
+          "name": "Crispy Punjabi Samosa (2 Pcs)",
+          "image": "/images/foods/samosa.jpg",
+          "categoryName": "Snacks",
+          "price": 30,
+          "quantity": 1,
+          "subtotal": 30
+        }
+      ],
+      "grandTotal": 30,
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI82478441",
+      "updatedAt": "2026-10-27T07:31:11.915Z"
+    },
+    {
+      "id": "ord-sep01-1",
+      "orderId": "CFO-2026-000101",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-1",
+          "name": "Crispy Punjabi Samosa (2 Pcs)",
+          "price": 30,
+          "quantity": 2,
+          "subtotal": 60,
+          "image": "/images/foods/samosa.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 2,
+          "subtotal": 30,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 90,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-01T04:45:00.000Z",
+      "orderDate": "2026-09-01T04:45:00.000Z"
+    },
+    {
+      "id": "ord-sep01-2",
+      "orderId": "CFO-2026-000102",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-12",
+          "name": "Veg Thali (5 Items)",
+          "price": 150,
+          "quantity": 1,
+          "subtotal": 150,
+          "image": "/images/foods/veg-thali.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda (Sweet & Salt)",
+          "price": 40,
+          "quantity": 1,
+          "subtotal": 40,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 190,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260901-001",
+      "createdAt": "2026-09-01T08:00:00.000Z",
+      "orderDate": "2026-09-01T08:00:00.000Z"
+    },
+    {
+      "id": "ord-sep01-3",
+      "orderId": "CFO-2026-000103",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-14",
+          "name": "Peri Peri French Fries (Large)",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70,
+          "image": "/images/foods/french-fries.jpg"
+        },
+        {
+          "foodId": "food-5",
+          "name": "Perk Up Cold Coffee with Ice Cream",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70,
+          "image": "/images/foods/cold-coffee.jpg"
+        }
+      ],
+      "grandTotal": 140,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-01T10:30:00.000Z",
+      "orderDate": "2026-09-01T10:30:00.000Z"
+    },
+    {
+      "id": "ord-sep02-1",
+      "orderId": "CFO-2026-000104",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-paneer-tikka",
+          "name": "Paneer Tikka Masala with Roti",
+          "price": 140,
+          "quantity": 1,
+          "subtotal": 140,
+          "image": "/images/foods/paneer-tikka.jpg"
+        },
+        {
+          "foodId": "food-8",
+          "name": "Kesari Badam Milk (Chilled)",
+          "price": 60,
+          "quantity": 1,
+          "subtotal": 60,
+          "image": "/images/foods/badam-milk.jpg"
+        }
+      ],
+      "grandTotal": 200,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260902-002",
+      "createdAt": "2026-09-02T06:30:00.000Z",
+      "orderDate": "2026-09-02T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep02-2",
+      "orderId": "CFO-2026-000105",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-dosa",
+          "name": "Masala Dosa with Sambar",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160,
+          "image": "/images/foods/masala-dosa.jpg"
+        }
+      ],
+      "grandTotal": 160,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-02T09:15:00.000Z",
+      "orderDate": "2026-09-02T09:15:00.000Z"
+    },
+    {
+      "id": "ord-sep03-1",
+      "orderId": "CFO-2026-000106",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-jain-thali",
+          "name": "Jain Special Thali",
+          "price": 160,
+          "quantity": 1,
+          "subtotal": 160,
+          "image": "/images/foods/jain-thali.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda (Sweet & Salt)",
+          "price": 40,
+          "quantity": 2,
+          "subtotal": 80,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 240,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-03T06:00:00.000Z",
+      "orderDate": "2026-09-03T06:00:00.000Z"
+    },
+    {
+      "id": "ord-sep03-2",
+      "orderId": "CFO-2026-000107",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-9",
+          "name": "Hyderabadi Veg Dum Biryani",
+          "price": 130,
+          "quantity": 1,
+          "subtotal": 130,
+          "image": "/images/foods/veg-biryani.jpg"
+        },
+        {
+          "foodId": "food-19",
+          "name": "Gulab Jamun (2 Pcs)",
+          "price": 45,
+          "quantity": 1,
+          "subtotal": 45,
+          "image": "/images/foods/gulab-jamun.jpg"
+        }
+      ],
+      "grandTotal": 175,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-03T07:30:00.000Z",
+      "orderDate": "2026-09-03T07:30:00.000Z"
+    },
+    {
+      "id": "ord-sep05-1",
+      "orderId": "CFO-2026-000108",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-13",
+          "name": "Crispy Veg Burger with Fries",
+          "price": 100,
+          "quantity": 2,
+          "subtotal": 200,
+          "image": "/images/foods/veg-burger.jpg"
+        },
+        {
+          "foodId": "food-mango-shake",
+          "name": "Alphonso Mango Milkshake",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160,
+          "image": "/images/foods/mango-milkshake.jpg"
+        }
+      ],
+      "grandTotal": 360,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260905-003",
+      "createdAt": "2026-09-05T06:30:00.000Z",
+      "orderDate": "2026-09-05T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep08-1",
+      "orderId": "CFO-2026-000109",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-10",
+          "name": "Mumbai Pav Bhaji",
+          "price": 90,
+          "quantity": 1,
+          "subtotal": 90,
+          "image": "/images/foods/pav-bhaji.jpg"
+        },
+        {
+          "foodId": "food-kulfi",
+          "name": "Matka Kesar Kulfi",
+          "price": 55,
+          "quantity": 2,
+          "subtotal": 110,
+          "image": "/images/foods/matka-kulfi.jpg"
+        }
+      ],
+      "grandTotal": 200,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-08T07:45:00.000Z",
+      "orderDate": "2026-09-08T07:45:00.000Z"
+    },
+    {
+      "id": "ord-sep08-2",
+      "orderId": "CFO-2026-000110",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-sandwich",
+          "name": "Grilled Veg Club Sandwich",
+          "price": 60,
+          "quantity": 2,
+          "subtotal": 120,
+          "image": "/images/foods/sandwich.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 3,
+          "subtotal": 45,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 165,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260908-004",
+      "createdAt": "2026-09-08T11:00:00.000Z",
+      "orderDate": "2026-09-08T11:00:00.000Z"
+    },
+    {
+      "id": "ord-sep08-3",
+      "orderId": "CFO-2026-000111",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-idli",
+          "name": "Idli Sambar (3 Pcs)",
+          "price": 60,
+          "quantity": 1,
+          "subtotal": 60,
+          "image": "/images/foods/idli-sambar.jpg"
+        }
+      ],
+      "grandTotal": 60,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-08T03:30:00.000Z",
+      "orderDate": "2026-09-08T03:30:00.000Z"
+    },
+    {
+      "id": "ord-sep09-1",
+      "orderId": "CFO-2026-000112",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-jain-biryani",
+          "name": "Jain Veg Biryani",
+          "price": 130,
+          "quantity": 1,
+          "subtotal": 130,
+          "image": "/images/foods/jain-biryani.jpg"
+        },
+        {
+          "foodId": "food-20",
+          "name": "Kesar Rasgulla (2 Pcs)",
+          "price": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "image": "/images/foods/rasgulla.jpg"
+        }
+      ],
+      "grandTotal": 230,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-09T07:00:00.000Z",
+      "orderDate": "2026-09-09T07:00:00.000Z"
+    },
+    {
+      "id": "ord-sep09-2",
+      "orderId": "CFO-2026-000112B",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-idli",
+          "name": "Idli Sambar (3 Pcs)",
+          "price": 60,
+          "quantity": 1,
+          "subtotal": 60,
+          "image": "/images/foods/idli-sambar.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 2,
+          "subtotal": 30,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 90,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-09T03:45:00.000Z",
+      "orderDate": "2026-09-09T03:45:00.000Z"
+    },
+    {
+      "id": "ord-sep10-1",
+      "orderId": "CFO-2026-000113",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-wrap",
+          "name": "Paneer Tikka Wrap",
+          "price": 90,
+          "quantity": 2,
+          "subtotal": 180,
+          "image": "/images/foods/paneer-wrap.jpg"
+        },
+        {
+          "foodId": "dtc-cold-brew",
+          "name": "Cold Brew Espresso Float",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70,
+          "image": "/images/foods/cold-brew-float.jpg"
+        }
+      ],
+      "grandTotal": 250,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260910-005",
+      "createdAt": "2026-09-10T06:30:00.000Z",
+      "orderDate": "2026-09-10T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep10-2",
+      "orderId": "CFO-2026-000114",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-2",
+          "name": "Mumbai Special Vada Pav",
+          "price": 35,
+          "quantity": 3,
+          "subtotal": 105,
+          "image": "/images/foods/vada-pav.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 3,
+          "subtotal": 45,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 150,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-10T09:00:00.000Z",
+      "orderDate": "2026-09-10T09:00:00.000Z"
+    },
+    {
+      "id": "ord-sep10-3",
+      "orderId": "CFO-2026-000115",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-dosa",
+          "name": "Masala Dosa with Sambar",
+          "price": 80,
+          "quantity": 1,
+          "subtotal": 80,
+          "image": "/images/foods/masala-dosa.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda",
+          "price": 40,
+          "quantity": 1,
+          "subtotal": 40,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 120,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-10T10:30:00.000Z",
+      "orderDate": "2026-09-10T10:30:00.000Z"
+    },
+    {
+      "id": "ord-sep11-1",
+      "orderId": "CFO-2026-000116",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-9",
+          "name": "Hyderabadi Veg Dum Biryani",
+          "price": 130,
+          "quantity": 2,
+          "subtotal": 260,
+          "image": "/images/foods/veg-biryani.jpg"
+        },
+        {
+          "foodId": "food-kulfi",
+          "name": "Matka Kesar Kulfi",
+          "price": 55,
+          "quantity": 2,
+          "subtotal": 110,
+          "image": "/images/foods/matka-kulfi.jpg"
+        }
+      ],
+      "grandTotal": 370,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260911-006",
+      "createdAt": "2026-09-11T07:30:00.000Z",
+      "orderDate": "2026-09-11T07:30:00.000Z"
+    },
+    {
+      "id": "ord-sep11-2",
+      "orderId": "CFO-2026-000117",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-13",
+          "name": "Crispy Veg Burger with Fries",
+          "price": 100,
+          "quantity": 1,
+          "subtotal": 100,
+          "image": "/images/foods/veg-burger.jpg"
+        },
+        {
+          "foodId": "food-5",
+          "name": "Perk Up Cold Coffee",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70,
+          "image": "/images/foods/cold-coffee.jpg"
+        }
+      ],
+      "grandTotal": 170,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-11T10:00:00.000Z",
+      "orderDate": "2026-09-11T10:00:00.000Z"
+    },
+    {
+      "id": "ord-sep11-3",
+      "orderId": "CFO-2026-000118",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-bhel",
+          "name": "Mumbai Bhel Puri",
+          "price": 25,
+          "quantity": 4,
+          "subtotal": 100,
+          "image": "/images/foods/bhel-puri.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda",
+          "price": 40,
+          "quantity": 2,
+          "subtotal": 80,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 180,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-11T11:30:00.000Z",
+      "orderDate": "2026-09-11T11:30:00.000Z"
+    },
+    {
+      "id": "ord-sep12-1",
+      "orderId": "CFO-2026-000119",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-12",
+          "name": "Veg Thali (5 Items)",
+          "price": 150,
+          "quantity": 2,
+          "subtotal": 300,
+          "image": "/images/foods/veg-thali.jpg"
+        },
+        {
+          "foodId": "food-8",
+          "name": "Kesari Badam Milk",
+          "price": 60,
+          "quantity": 2,
+          "subtotal": 120,
+          "image": "/images/foods/badam-milk.jpg"
+        }
+      ],
+      "grandTotal": 420,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260912-007",
+      "createdAt": "2026-09-12T07:00:00.000Z",
+      "orderDate": "2026-09-12T07:00:00.000Z"
+    },
+    {
+      "id": "ord-sep12-2",
+      "orderId": "CFO-2026-000120",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-jain-thali",
+          "name": "Jain Special Thali",
+          "price": 160,
+          "quantity": 1,
+          "subtotal": 160,
+          "image": "/images/foods/jain-thali.jpg"
+        }
+      ],
+      "grandTotal": 160,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-12T08:30:00.000Z",
+      "orderDate": "2026-09-12T08:30:00.000Z"
+    },
+    {
+      "id": "ord-sep15-1",
+      "orderId": "CFO-2026-000121",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-uttapam",
+          "name": "Veg Uttapam",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "image": "/images/foods/veg-uttapam.jpg"
+        },
+        {
+          "foodId": "food-mango-shake",
+          "name": "Alphonso Mango Milkshake",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160,
+          "image": "/images/foods/mango-milkshake.jpg"
+        }
+      ],
+      "grandTotal": 300,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260915-008",
+      "createdAt": "2026-09-15T06:00:00.000Z",
+      "orderDate": "2026-09-15T06:00:00.000Z"
+    },
+    {
+      "id": "ord-sep15-2",
+      "orderId": "CFO-2026-000122",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-paneer-tikka",
+          "name": "Paneer Tikka Masala with Roti",
+          "price": 140,
+          "quantity": 1,
+          "subtotal": 140,
+          "image": "/images/foods/paneer-tikka.jpg"
+        },
+        {
+          "foodId": "food-19",
+          "name": "Gulab Jamun (2 Pcs)",
+          "price": 45,
+          "quantity": 2,
+          "subtotal": 90,
+          "image": "/images/foods/gulab-jamun.jpg"
+        }
+      ],
+      "grandTotal": 230,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-15T07:30:00.000Z",
+      "orderDate": "2026-09-15T07:30:00.000Z"
+    },
+    {
+      "id": "ord-sep15-3",
+      "orderId": "CFO-2026-000123",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-1",
+          "name": "Crispy Punjabi Samosa (2 Pcs)",
+          "price": 30,
+          "quantity": 4,
+          "subtotal": 120,
+          "image": "/images/foods/samosa.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 4,
+          "subtotal": 60,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 180,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-15T10:30:00.000Z",
+      "orderDate": "2026-09-15T10:30:00.000Z"
+    },
+    {
+      "id": "ord-sep16-1",
+      "orderId": "CFO-2026-000124",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-11",
+          "name": "Punjabi Dal Makhani with Rice",
+          "price": 120,
+          "quantity": 2,
+          "subtotal": 240,
+          "image": "/images/foods/dal-makhani.jpg"
+        },
+        {
+          "foodId": "food-18",
+          "name": "Hot Chocolate Fudge Brownie",
+          "price": 90,
+          "quantity": 1,
+          "subtotal": 90,
+          "image": "/images/foods/brownie.jpg"
+        }
+      ],
+      "grandTotal": 330,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260916-009",
+      "createdAt": "2026-09-16T07:15:00.000Z",
+      "orderDate": "2026-09-16T07:15:00.000Z"
+    },
+    {
+      "id": "ord-sep16-2",
+      "orderId": "CFO-2026-000125",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-14",
+          "name": "Peri Peri French Fries (Large)",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "image": "/images/foods/french-fries.jpg"
+        },
+        {
+          "foodId": "food-5",
+          "name": "Perk Up Cold Coffee",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "image": "/images/foods/cold-coffee.jpg"
+        }
+      ],
+      "grandTotal": 280,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-16T09:30:00.000Z",
+      "orderDate": "2026-09-16T09:30:00.000Z"
+    },
+    {
+      "id": "ord-sep17-1",
+      "orderId": "CFO-2026-000126",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-10",
+          "name": "Mumbai Pav Bhaji",
+          "price": 90,
+          "quantity": 2,
+          "subtotal": 180,
+          "image": "/images/foods/pav-bhaji.jpg"
+        },
+        {
+          "foodId": "food-mango-shake",
+          "name": "Alphonso Mango Milkshake",
+          "price": 80,
+          "quantity": 1,
+          "subtotal": 80,
+          "image": "/images/foods/mango-milkshake.jpg"
+        }
+      ],
+      "grandTotal": 260,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-17T06:30:00.000Z",
+      "orderDate": "2026-09-17T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep17-2",
+      "orderId": "CFO-2026-000127",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-dosa",
+          "name": "Masala Dosa with Sambar",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160,
+          "image": "/images/foods/masala-dosa.jpg"
+        },
+        {
+          "foodId": "food-8",
+          "name": "Kesari Badam Milk",
+          "price": 60,
+          "quantity": 1,
+          "subtotal": 60,
+          "image": "/images/foods/badam-milk.jpg"
+        }
+      ],
+      "grandTotal": 220,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260917-010",
+      "createdAt": "2026-09-17T09:00:00.000Z",
+      "orderDate": "2026-09-17T09:00:00.000Z"
+    },
+    {
+      "id": "ord-sep17-3",
+      "orderId": "CFO-2026-000128",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-4",
+          "name": "Veg Cheese Baked Puff",
+          "price": 45,
+          "quantity": 3,
+          "subtotal": 135,
+          "image": "/images/foods/veg-puff.jpg"
+        }
+      ],
+      "grandTotal": 135,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-17T11:00:00.000Z",
+      "orderDate": "2026-09-17T11:00:00.000Z"
+    },
+    {
+      "id": "ord-sep18-1",
+      "orderId": "CFO-2026-000129",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-jain-thali",
+          "name": "Jain Special Thali",
+          "price": 160,
+          "quantity": 2,
+          "subtotal": 320,
+          "image": "/images/foods/jain-thali.jpg"
+        },
+        {
+          "foodId": "food-20",
+          "name": "Kesar Rasgulla (2 Pcs)",
+          "price": 50,
+          "quantity": 2,
+          "subtotal": 100,
+          "image": "/images/foods/rasgulla.jpg"
+        }
+      ],
+      "grandTotal": 420,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260918-011",
+      "createdAt": "2026-09-18T06:30:00.000Z",
+      "orderDate": "2026-09-18T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep18-2",
+      "orderId": "CFO-2026-000130",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-wrap",
+          "name": "Paneer Tikka Wrap",
+          "price": 90,
+          "quantity": 3,
+          "subtotal": 270,
+          "image": "/images/foods/paneer-wrap.jpg"
+        },
+        {
+          "foodId": "dtc-cold-brew",
+          "name": "Cold Brew Espresso Float",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "image": "/images/foods/cold-brew-float.jpg"
+        }
+      ],
+      "grandTotal": 410,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-18T09:30:00.000Z",
+      "orderDate": "2026-09-18T09:30:00.000Z"
+    },
+    {
+      "id": "ord-sep19-1",
+      "orderId": "CFO-2026-000131",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-13",
+          "name": "Crispy Veg Burger with Fries",
+          "price": 100,
+          "quantity": 3,
+          "subtotal": 300,
+          "image": "/images/foods/veg-burger.jpg"
+        },
+        {
+          "foodId": "food-5",
+          "name": "Perk Up Cold Coffee",
+          "price": 70,
+          "quantity": 3,
+          "subtotal": 210,
+          "image": "/images/foods/cold-coffee.jpg"
+        }
+      ],
+      "grandTotal": 510,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260919-012",
+      "createdAt": "2026-09-19T07:30:00.000Z",
+      "orderDate": "2026-09-19T07:30:00.000Z"
+    },
+    {
+      "id": "ord-sep19-2",
+      "orderId": "CFO-2026-000132",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-1",
+          "name": "Crispy Punjabi Samosa",
+          "price": 30,
+          "quantity": 2,
+          "subtotal": 60,
+          "image": "/images/foods/samosa.jpg"
+        },
+        {
+          "foodId": "food-bhel",
+          "name": "Mumbai Bhel Puri",
+          "price": 25,
+          "quantity": 2,
+          "subtotal": 50,
+          "image": "/images/foods/bhel-puri.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 2,
+          "subtotal": 30,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 140,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-19T10:30:00.000Z",
+      "orderDate": "2026-09-19T10:30:00.000Z"
+    },
+    {
+      "id": "ord-sep22-1",
+      "orderId": "CFO-2026-000133",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-9",
+          "name": "Hyderabadi Veg Dum Biryani",
+          "price": 130,
+          "quantity": 3,
+          "subtotal": 390,
+          "image": "/images/foods/veg-biryani.jpg"
+        },
+        {
+          "foodId": "food-kulfi",
+          "name": "Matka Kesar Kulfi",
+          "price": 55,
+          "quantity": 3,
+          "subtotal": 165,
+          "image": "/images/foods/matka-kulfi.jpg"
+        }
+      ],
+      "grandTotal": 555,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260922-013",
+      "createdAt": "2026-09-22T06:30:00.000Z",
+      "orderDate": "2026-09-22T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep22-2",
+      "orderId": "CFO-2026-000134",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-10",
+          "name": "Mumbai Pav Bhaji",
+          "price": 90,
+          "quantity": 1,
+          "subtotal": 90,
+          "image": "/images/foods/pav-bhaji.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda",
+          "price": 40,
+          "quantity": 1,
+          "subtotal": 40,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 130,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-22T08:30:00.000Z",
+      "orderDate": "2026-09-22T08:30:00.000Z"
+    },
+    {
+      "id": "ord-sep22-3",
+      "orderId": "CFO-2026-000135",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-sandwich",
+          "name": "Grilled Veg Club Sandwich",
+          "price": 60,
+          "quantity": 3,
+          "subtotal": 180,
+          "image": "/images/foods/sandwich.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 3,
+          "subtotal": 45,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 225,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-22T11:00:00.000Z",
+      "orderDate": "2026-09-22T11:00:00.000Z"
+    },
+    {
+      "id": "ord-sep23-1",
+      "orderId": "CFO-2026-000136",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-12",
+          "name": "Veg Thali (5 Items)",
+          "price": 150,
+          "quantity": 3,
+          "subtotal": 450,
+          "image": "/images/foods/veg-thali.jpg"
+        },
+        {
+          "foodId": "food-18",
+          "name": "Hot Chocolate Fudge Brownie",
+          "price": 90,
+          "quantity": 2,
+          "subtotal": 180,
+          "image": "/images/foods/brownie.jpg"
+        }
+      ],
+      "grandTotal": 630,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260923-014",
+      "createdAt": "2026-09-23T06:30:00.000Z",
+      "orderDate": "2026-09-23T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep23-2",
+      "orderId": "CFO-2026-000137",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-idli",
+          "name": "Idli Sambar (3 Pcs)",
+          "price": 60,
+          "quantity": 2,
+          "subtotal": 120,
+          "image": "/images/foods/idli-sambar.jpg"
+        },
+        {
+          "foodId": "food-8",
+          "name": "Kesari Badam Milk",
+          "price": 60,
+          "quantity": 2,
+          "subtotal": 120,
+          "image": "/images/foods/badam-milk.jpg"
+        }
+      ],
+      "grandTotal": 240,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-23T09:30:00.000Z",
+      "orderDate": "2026-09-23T09:30:00.000Z"
+    },
+    {
+      "id": "ord-sep24-1",
+      "orderId": "CFO-2026-000138",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-jain-biryani",
+          "name": "Jain Veg Biryani",
+          "price": 130,
+          "quantity": 2,
+          "subtotal": 260,
+          "image": "/images/foods/jain-biryani.jpg"
+        },
+        {
+          "foodId": "food-19",
+          "name": "Gulab Jamun (2 Pcs)",
+          "price": 45,
+          "quantity": 2,
+          "subtotal": 90,
+          "image": "/images/foods/gulab-jamun.jpg"
+        }
+      ],
+      "grandTotal": 350,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-24T07:00:00.000Z",
+      "orderDate": "2026-09-24T07:00:00.000Z"
+    },
+    {
+      "id": "ord-sep24-2",
+      "orderId": "CFO-2026-000139",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-paneer-tikka",
+          "name": "Paneer Tikka Masala with Roti",
+          "price": 140,
+          "quantity": 2,
+          "subtotal": 280,
+          "image": "/images/foods/paneer-tikka.jpg"
+        },
+        {
+          "foodId": "food-mango-shake",
+          "name": "Alphonso Mango Milkshake",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160,
+          "image": "/images/foods/mango-milkshake.jpg"
+        }
+      ],
+      "grandTotal": 440,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260924-015",
+      "createdAt": "2026-09-24T08:30:00.000Z",
+      "orderDate": "2026-09-24T08:30:00.000Z"
+    },
+    {
+      "id": "ord-sep24-3",
+      "orderId": "CFO-2026-000140",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-2",
+          "name": "Mumbai Special Vada Pav",
+          "price": 35,
+          "quantity": 5,
+          "subtotal": 175,
+          "image": "/images/foods/vada-pav.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda",
+          "price": 40,
+          "quantity": 3,
+          "subtotal": 120,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 295,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-24T11:15:00.000Z",
+      "orderDate": "2026-09-24T11:15:00.000Z"
+    },
+    {
+      "id": "ord-sep25-1",
+      "orderId": "CFO-2026-000141",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-11",
+          "name": "Punjabi Dal Makhani with Rice",
+          "price": 120,
+          "quantity": 3,
+          "subtotal": 360,
+          "image": "/images/foods/dal-makhani.jpg"
+        },
+        {
+          "foodId": "food-kulfi",
+          "name": "Matka Kesar Kulfi",
+          "price": 55,
+          "quantity": 3,
+          "subtotal": 165,
+          "image": "/images/foods/matka-kulfi.jpg"
+        }
+      ],
+      "grandTotal": 525,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260925-016",
+      "createdAt": "2026-09-25T06:30:00.000Z",
+      "orderDate": "2026-09-25T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep25-2",
+      "orderId": "CFO-2026-000142",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-dosa",
+          "name": "Masala Dosa with Sambar",
+          "price": 80,
+          "quantity": 3,
+          "subtotal": 240,
+          "image": "/images/foods/masala-dosa.jpg"
+        },
+        {
+          "foodId": "food-8",
+          "name": "Kesari Badam Milk",
+          "price": 60,
+          "quantity": 3,
+          "subtotal": 180,
+          "image": "/images/foods/badam-milk.jpg"
+        }
+      ],
+      "grandTotal": 420,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-25T09:00:00.000Z",
+      "orderDate": "2026-09-25T09:00:00.000Z"
+    },
+    {
+      "id": "ord-sep25-3",
+      "orderId": "CFO-2026-000143",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-3",
+          "name": "Khasta Moong Dal Kachori",
+          "price": 40,
+          "quantity": 4,
+          "subtotal": 160,
+          "image": "/images/foods/kachori.jpg"
+        },
+        {
+          "foodId": "food-6",
+          "name": "Masala Chai (Cutting)",
+          "price": 15,
+          "quantity": 4,
+          "subtotal": 60,
+          "image": "/images/foods/masala-chai.jpg"
+        }
+      ],
+      "grandTotal": 220,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-25T11:30:00.000Z",
+      "orderDate": "2026-09-25T11:30:00.000Z"
+    },
+    {
+      "id": "ord-sep26-1",
+      "orderId": "CFO-2026-000144",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-9",
+          "name": "Hyderabadi Veg Dum Biryani",
+          "price": 130,
+          "quantity": 2,
+          "subtotal": 260,
+          "image": "/images/foods/veg-biryani.jpg"
+        },
+        {
+          "foodId": "food-mango-shake",
+          "name": "Alphonso Mango Milkshake",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160,
+          "image": "/images/foods/mango-milkshake.jpg"
+        }
+      ],
+      "grandTotal": 420,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260926-017",
+      "createdAt": "2026-09-26T06:30:00.000Z",
+      "orderDate": "2026-09-26T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep26-2",
+      "orderId": "CFO-2026-000145",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-14",
+          "name": "Peri Peri French Fries (Large)",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "image": "/images/foods/french-fries.jpg"
+        },
+        {
+          "foodId": "food-5",
+          "name": "Perk Up Cold Coffee",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70,
+          "image": "/images/foods/cold-coffee.jpg"
+        }
+      ],
+      "grandTotal": 210,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-26T09:30:00.000Z",
+      "orderDate": "2026-09-26T09:30:00.000Z"
+    },
+    {
+      "id": "ord-sep29-1",
+      "orderId": "CFO-2026-000146",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-jain-thali",
+          "name": "Jain Special Thali",
+          "price": 160,
+          "quantity": 3,
+          "subtotal": 480,
+          "image": "/images/foods/jain-thali.jpg"
+        },
+        {
+          "foodId": "food-kulfi",
+          "name": "Matka Kesar Kulfi",
+          "price": 55,
+          "quantity": 3,
+          "subtotal": 165,
+          "image": "/images/foods/matka-kulfi.jpg"
+        }
+      ],
+      "grandTotal": 645,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260929-018",
+      "createdAt": "2026-09-29T06:00:00.000Z",
+      "orderDate": "2026-09-29T06:00:00.000Z"
+    },
+    {
+      "id": "ord-sep29-2",
+      "orderId": "CFO-2026-000147",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-wrap",
+          "name": "Paneer Tikka Wrap",
+          "price": 90,
+          "quantity": 2,
+          "subtotal": 180,
+          "image": "/images/foods/paneer-wrap.jpg"
+        },
+        {
+          "foodId": "food-7",
+          "name": "Fresh Lime Soda",
+          "price": 40,
+          "quantity": 2,
+          "subtotal": 80,
+          "image": "/images/foods/lime-soda.jpg"
+        }
+      ],
+      "grandTotal": 260,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-29T08:00:00.000Z",
+      "orderDate": "2026-09-29T08:00:00.000Z"
+    },
+    {
+      "id": "ord-sep29-3",
+      "orderId": "CFO-2026-000148",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-uttapam",
+          "name": "Veg Uttapam",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140,
+          "image": "/images/foods/veg-uttapam.jpg"
+        },
+        {
+          "foodId": "food-19",
+          "name": "Gulab Jamun (2 Pcs)",
+          "price": 45,
+          "quantity": 2,
+          "subtotal": 90,
+          "image": "/images/foods/gulab-jamun.jpg"
+        }
+      ],
+      "grandTotal": 230,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-29T10:30:00.000Z",
+      "orderDate": "2026-09-29T10:30:00.000Z"
+    },
+    {
+      "id": "ord-sep30-1",
+      "orderId": "CFO-2026-000149",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-12",
+          "name": "Veg Thali (5 Items)",
+          "price": 150,
+          "quantity": 4,
+          "subtotal": 600,
+          "image": "/images/foods/veg-thali.jpg"
+        },
+        {
+          "foodId": "food-18",
+          "name": "Hot Chocolate Fudge Brownie",
+          "price": 90,
+          "quantity": 4,
+          "subtotal": 360,
+          "image": "/images/foods/brownie.jpg"
+        }
+      ],
+      "grandTotal": 960,
+      "status": "Completed",
+      "paymentMethod": "Online UPI",
+      "paymentStatus": "Paid via Online UPI",
+      "transactionId": "UPI-20260930-019",
+      "createdAt": "2026-09-30T06:30:00.000Z",
+      "orderDate": "2026-09-30T06:30:00.000Z"
+    },
+    {
+      "id": "ord-sep30-2",
+      "orderId": "CFO-2026-000150",
+      "userId": "user-student-1",
+      "userName": "Alex Johnson",
+      "userEmail": "alex.johnson@svkm.ac.in",
+      "userType": "Student",
+      "items": [
+        {
+          "foodId": "food-9",
+          "name": "Hyderabadi Veg Dum Biryani",
+          "price": 130,
+          "quantity": 3,
+          "subtotal": 390,
+          "image": "/images/foods/veg-biryani.jpg"
+        },
+        {
+          "foodId": "food-kulfi",
+          "name": "Matka Kesar Kulfi",
+          "price": 55,
+          "quantity": 3,
+          "subtotal": 165,
+          "image": "/images/foods/matka-kulfi.jpg"
+        }
+      ],
+      "grandTotal": 555,
+      "status": "Completed",
+      "paymentMethod": "Campus Card",
+      "paymentStatus": "Paid via SVKM Campus Card",
+      "createdAt": "2026-09-30T08:30:00.000Z",
+      "orderDate": "2026-09-30T08:30:00.000Z"
+    },
+    {
+      "id": "ord-sep30-3",
+      "orderId": "CFO-2026-000151",
+      "userId": "user-staff-1",
+      "userName": "Prof. Sharma",
+      "userEmail": "prof.sharma@svkm.edu.in",
+      "userType": "Teaching Staff",
+      "items": [
+        {
+          "foodId": "food-paneer-tikka",
+          "name": "Paneer Tikka Masala with Roti",
+          "price": 140,
+          "quantity": 2,
+          "subtotal": 280,
+          "image": "/images/foods/paneer-tikka.jpg"
+        },
+        {
+          "foodId": "food-20",
+          "name": "Kesar Rasgulla (2 Pcs)",
+          "price": 50,
+          "quantity": 4,
+          "subtotal": 200,
+          "image": "/images/foods/rasgulla.jpg"
+        }
+      ],
+      "grandTotal": 480,
+      "status": "Completed",
+      "paymentMethod": "Cash",
+      "paymentStatus": "Paid Cash (Received at Counter)",
+      "createdAt": "2026-09-30T11:00:00.000Z",
+      "orderDate": "2026-09-30T11:00:00.000Z"
+    }
+  ],
+  "orderCounter": 152
+}
