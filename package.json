@@ -1,7 +1,7 @@
 {
-  "name": "campus-food-ordering-system",
+  "name": "svkm-college-canteen",
   "version": "1.0.0",
-  "description": "Full-Stack College Cafeteria Food Ordering System",
+  "description": "SVKM College Canteen Management System",
   "scripts": {
     "start": "node server/index.js",
     "server": "node server/index.js",

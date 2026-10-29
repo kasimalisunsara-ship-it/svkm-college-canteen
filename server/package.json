@@ -1,7 +1,7 @@
 {
-  "name": "campus-food-ordering-server",
+  "name": "svkm-canteen-server",
   "version": "1.0.0",
-  "description": "Backend API server for Campus Food Ordering System",
+  "description": "Backend API server for SVKM College Canteen Management System",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
